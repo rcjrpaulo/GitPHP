@@ -6,5 +6,6 @@
 </head>
 <?php
 echo "<H2>Olá, Mundo!</H2>";
+echo "Versao 2";
 ?>
 </html>
