@@ -34,9 +34,7 @@ function dia_atual()
         case 6:
             return "Sábado";
             break;
-        default:
-            return "Fail";
-            break;
+
     }
 }
 
