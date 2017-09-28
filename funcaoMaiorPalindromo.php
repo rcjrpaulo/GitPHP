@@ -14,7 +14,7 @@ function longestSubPalindrome($texto){
     $arraytexto = explode(" ",$texto);
     $arraytexto_reverso = explode(" ",$texto_reverso);
 
-for($i=0;$i<= strlen($arraytexto);$i++) {
+for($i=0;$i< strlen($arraytexto);$i++) {
 
     //testando se e palindrome
     if ($arraytexto[i] == $arraytexto_reverso[i]) {
