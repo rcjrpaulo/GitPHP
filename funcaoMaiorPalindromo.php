@@ -14,18 +14,20 @@ function longestSubPalindrome($texto){
     $arraytexto = explode(" ",$texto);
     $arraytexto_reverso = explode(" ",$texto_reverso);
 
-for($i=0;$i< strlen($arraytexto);$i++) {
+foreach ($arraytexto as $arraytext)
+{
+    foreach ($arraytexto_reverso as $arrayreverse){
+        //testando se e palindrome
+        if($arrayreverse == $arraytext){
+            $palindrome = $arraytext;
+            //testando se o palindrome atual e maior que o ultimo encontrado
+            if (strlen($palindrome) > strlen($maiorpalindrome)) {
+                $maiorpalindrome = $palindrome;
+            }
 
-    //testando se e palindrome
-    if ($arraytexto[i] == $arraytexto_reverso[i]) {
-        $palindrome = $arraytexto[i];
+        }
     }
-    //testando se o palindrome atual e maior que o ultimo encontrado
-    if (strlen($palindrome) > strlen($maiorpalindrome)) {
-        $maiorpalindrome = $palindrome;
-    }
-                                        }
-
+}
     //Pegando o i que é o inicio do maior palindrome
     $i = strpos($texto, $maiorpalindrome);
     //pegando o fim do maior palindrome
