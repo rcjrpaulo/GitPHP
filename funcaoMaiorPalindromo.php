@@ -6,11 +6,13 @@
 </head>
 <body>
 <?php
-
+//variavel de teste o oitavo elemento e o começo e o decimo terceiro o fim
+$x = "aaa ele aaaaa";
+echo "$x<br/>";
 function longestSubPalindrome($texto){
     $maiorpalindrome = "";
-
-    $texto_reverso = strrev($texto);
+    $ltexto = strtolower($texto);
+    $texto_reverso = strrev($ltexto);
     $arraytexto = explode(" ",$texto);
     $arraytexto_reverso = explode(" ",$texto_reverso);
 
@@ -29,14 +31,16 @@ foreach ($arraytexto as $arraytext)
     }
 }
     //Pegando o i que é o inicio do maior palindrome
-    $i = strpos($texto, $maiorpalindrome);
+    $i = strpos($ltexto, $maiorpalindrome);
     //pegando o fim do maior palindrome
-    $j = strpos($texto,$maiorpalindrome+strlen($maiorpalindrome));
+    $j = strpos($ltexto,$maiorpalindrome)+strlen($maiorpalindrome);
 
-    return $i;
-    return $j;
+    return array($i,$j);
 
 }
+$resultado = array(longestSubPalindrome($x));
+
+print_r($resultado);
 
 
 ?>
