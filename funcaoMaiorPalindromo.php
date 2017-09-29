@@ -6,8 +6,9 @@
 </head>
 <body>
 <?php
-/*Palindromo comeca no 3 elemento
-e termina no 9 elemento*/
+/*A maior Sub String de Palindromo comeca no
+3 elemento e termina no 9 elemento
+A String comeca no 0*/
 $x = "aa elelele aaaaa";
 echo "$x<br/>";
 function longestSubPalindrome($texto){
