@@ -6,8 +6,8 @@
 </head>
 <body>
 <?php
-/*variavel de teste o terceiro elemento e o começo
-e o decimo o fim*/
+/*Palindromo comeca no 3 elemento
+e termina no 9 elemento*/
 $x = "aa elelele aaaaa";
 echo "$x<br/>";
 function longestSubPalindrome($texto){
@@ -34,7 +34,7 @@ foreach ($arraytexto as $arraytext)
     //Pegando o i que é o inicio do maior palindrome
     $i = strpos($ltexto, $maiorpalindrome);
     //pegando o fim do maior palindrome
-    $j = strpos($ltexto,$maiorpalindrome)+strlen($maiorpalindrome);
+    $j = strpos($ltexto,$maiorpalindrome)+strlen($maiorpalindrome)-1;
 
     return array($i,$j);
 
