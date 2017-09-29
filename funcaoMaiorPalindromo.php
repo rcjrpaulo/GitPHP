@@ -6,8 +6,9 @@
 </head>
 <body>
 <?php
-//variavel de teste o oitavo elemento e o começo e o decimo terceiro o fim
-$x = "aaa ele aaaaa";
+/*variavel de teste o terceiro elemento e o começo
+e o decimo o fim*/
+$x = "aa elelele aaaaa";
 echo "$x<br/>";
 function longestSubPalindrome($texto){
     $maiorpalindrome = "";
@@ -41,7 +42,6 @@ foreach ($arraytexto as $arraytext)
 $resultado = array(longestSubPalindrome($x));
 
 print_r($resultado);
-
 
 ?>
 </body>
