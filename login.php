@@ -5,7 +5,7 @@
 <head>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css"/>
     <meta charset="UTF-8"/>
-    <title>Ola Mundo</title>
+    <title>testando</title>
 </head>
 <body>
 <?php

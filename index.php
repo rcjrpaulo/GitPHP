@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8"/>
-    <title>Ola Mundo</title>
+    <title>formulario</title>
 </head>
 <body>
 <form action="http://127.0.0.1/Learning/GitPHP/login.php" method="POST">
