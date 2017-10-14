@@ -2,12 +2,12 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8"/>
-    <title>arrayforeach</title>
+    <title>ArrayForeachStuffs</title>
 </head>
 <body>
 <?php
 
-$a = array(2, 4, 6, "xurras");
+$a = array(2, 4, 6, "string");
 
 foreach ($a as $v) {
     echo 'Mostrando o foreach varrendo o array da variavel de $v:'." $v.<br/>";

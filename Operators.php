@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8"/>
-    <title>operadores</title>
+    <title>Operators</title>
 </head>
         <body>
 <?php

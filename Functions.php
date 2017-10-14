@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8"/>
-    <title>funcoes01</title>
+    <title>Functions</title>
 </head>
 <body>
 <?php

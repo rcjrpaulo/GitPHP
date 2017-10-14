@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8"/>
-    <title>funcaomaiorpalindromo</title>
+    <title>Function_Biggest_Sub_Palindrome</title>
 </head>
 <body>
 <?php

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>cadastro</title>
+    <title>RegisterPHP</title>
 </head>
 <body>
 <?php
@@ -13,7 +13,7 @@ $sexo = isset($_GET["sexo"])?$_GET["sexo"]:"[nao informado]";
 
 echo "$nome e $sexo e sua idade e $idade";
 ?>
-<br/> <a href="cadastro.html">Voltar</a>
+<br/> <a href="RegisterView.html">Voltar</a>
 </form>
 </body>
 </html>

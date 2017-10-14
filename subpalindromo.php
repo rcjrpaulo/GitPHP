@@ -21,7 +21,6 @@ assert("$L('Race carr') == [7, 9]");
 assert("$L('') == [0, 0]");
 assert("$L('something rac e car going') == [8,21]");
 assert("$L('xxxxx') == [0, 5]");
-1
 
 assert("$L('Mad am I ma dam.') == [0, 15]");
 return 1;

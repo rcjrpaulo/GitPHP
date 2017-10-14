@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8"/>
-    <title>usandovariavel</title>
+    <title>BasicVariableUsing</title>
 </head>
     <body>
 <?php

@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8"/>
-    <title>estruturarepeticao</title>
+    <title>IfElse</title>
 </head>
 <body>
 <?php
